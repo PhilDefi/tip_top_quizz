@@ -1,0 +1,303 @@
+@font-face
+{
+    font-family: 'carbontyperegular';
+    src: url('carbontype-webfont.eot');
+    src: url('carbontype-webfont.eot?#iefix') format('embedded-opentype'),
+         url('carbontype-webfont.woff') format('woff'),
+         url('carbontype-webfont.ttf') format('truetype'),
+         url('carbontype-webfont.svg#carbontyperegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'momstypewriterregular';
+    src: url('Moms_typewriter-webfont.eot');
+    src: url('Moms_typewriter-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Moms_typewriter-webfont.woff') format('woff'),
+         url('Moms_typewriter-webfont.ttf') format('truetype'),
+         url('Moms_typewriter-webfont.svg#momstypewriterregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body
+{
+	text-align: center;
+	background-color: #3399cc;
+	font-family: arial;
+}
+
+header
+{
+	text-align: center;
+	background-color: #333399;
+	color: white;
+}
+
+section
+{
+	text-align: center;
+}
+
+.policecarbon
+{
+	font-style: normal;
+	font-weight: normal;
+	font-family: carbontyperegular, arial, sans-serif;
+}
+
+.policecarbonbig
+{
+	font-style: normal;
+	font-weight: normal;
+	font-family: carbontyperegular, arial, sans-serif;
+	font-size: 30pt;
+}
+
+.policecarbondegouline
+{
+	font-style: normal;
+	font-weight: normal;
+	font-family: carbontyperegular, arial, sans-serif;
+	font-size: 28pt;
+	transition: text-shadow 0.7s linear;
+	-webkit-transition: text-shadow 0.7s linear;
+	-moz-transition: text-shadow 0.7s linear;
+	-o-transition: text-shadow 0.7s linear;
+	text-shadow: 0px 0px 0px #3399cc;
+}
+
+.policemomstype
+{
+	font-style: normal;
+	font-weight: normal;
+	font-family: momstypewriterregular, arial, sans-serif;
+}
+
+.policemomstypedegouline
+{
+	font-style: normal;
+	font-weight: normal;
+	font-family: momstypewriterregular, arial, sans-serif;
+	font-size: 12pt;
+	transition: text-shadow 0.7s linear;
+	-webkit-transition: text-shadow 0.7s linear;
+	-moz-transition: text-shadow 0.7s linear;
+	-o-transition: text-shadow 0.7s linear;
+	text-shadow: 0px 0px 0px #3399cc;
+}
+
+.policemomstypedegouline:hover
+{
+	transition: text-shadow 3s linear;
+	-webkit-transition: text-shadow 3s linear;
+	-moz-transition: text-shadow 3s linear;
+	-o-transition: text-shadow 3s linear;
+	text-shadow: 0px 30px 0px #3399cc;
+}
+
+.policecarbondegouline:hover
+{
+	transition: text-shadow 3s linear;
+	-webkit-transition: text-shadow 3s linear;
+	-moz-transition: text-shadow 3s linear;
+	-o-transition: text-shadow 3s linear;
+	text-shadow: 0px 30px 0px #3399cc;
+}
+
+.float_left
+{
+	float: left;
+	margin: 10px 0px 10px 30px;
+	font-family: carbontyperegular, arial, sans-serif;
+	font-size: 100px;
+	vertical-align: center; /*s'applique aux éléments de type en-ligne */
+	transition: transform 2s ease-in-out;
+	-webkit-transition: transform 2s ease-in-out;
+	-moz-transition: transform 2s ease-in-out;
+	-o-transition: transform 2s ease-in-out;
+}
+
+.float_right
+{
+	float: right;
+	margin: 10px 30px 10px 0px;
+	font-family: carbontyperegular, arial, sans-serif;
+	font-size: 100px;
+	transform: rotate(180deg);
+	vertical-align: center;
+	transition: transform 2s ease-in-out;
+	-webkit-transition: transform 2s ease-in-out;
+	-moz-transition: transform 2s ease-in-out;
+	-o-transition: transform 2s ease-in-out;
+}
+
+.float_left:hover
+{
+	transition: transform 2s ease-in-out;
+	-webkit-transition: transform 2s ease-in-out;
+	-moz-transition: transform 2s ease-in-out;
+	-o-transition: transform 2s ease-in-out;
+	transform: rotate(900deg);
+}
+
+.float_right:hover
+{
+	transition: transform 2s ease-in-out;
+	-webkit-transition: transform 2s ease-in-out;
+	-moz-transition: transform 2s ease-in-out;
+	-o-transition: transform 2s ease-in-out;
+	transform: rotate(900deg);
+}
+
+p.touche
+{
+	/* Technique pour centrer un block */
+	position: relative;
+    left: 50%;
+    width: 200px;
+    height: 20px;
+    margin-left: -120px; /* = nég (moitié de width + padding) */
+    
+	border: 2px black inset;
+	border-radius: 5px;
+	padding: 20px ;
+	
+	background: -webkit-linear-gradient(top, #99cc99, #ffffcc);
+	background: -ms-linear-gradient(top, #99cc99, #ffffcc);
+	background: -o-linear-gradient(top, #99cc99, #ffffcc);
+	background: -moz-linear-gradient(top, #99cc99, #ffffcc);
+	background: linear-gradient(top, #99cc99, #ffffcc);
+	box-shadow: 3px 3px 5px black;
+	
+	font-size: 20px;
+	font-weight: bold;			
+}
+
+p.touche:hover
+{
+	background: #99cc99;
+}
+
+a
+{
+	text-decoration: none;
+	color: black;
+}
+
+p.align_gauche
+{
+	text-align: left;
+	padding-left: 20px;
+}
+
+div.proposition
+{
+	text-align: left;
+	padding-left: 40px;
+}
+
+.ombre
+{
+	box-shadow: 0px 0px 15px #333399;
+}
+
+.bouton_valider
+{
+	padding: 10px;
+	box-shadow: 0px 0px 15px #333399;
+	
+	font-size: 12pt;
+	font-weight: bold;
+	border-radius: 5px;
+	
+	background: -webkit-linear-gradient(top, #99cc99, #ffffcc);
+	background: -ms-linear-gradient(top, #99cc99, #ffffcc);
+	background: -o-linear-gradient(top, #99cc99, #ffffcc);
+	background: -moz-linear-gradient(top, #99cc99, #ffffcc);
+	background: linear-gradient(top, #99cc99, #ffffcc);
+}
+
+.box
+{
+	position: relative;
+    left: 50%;
+    width: 460px;
+	height: 110px;
+	padding: 10px;
+    margin-left: -240px; /* = nég (moitié de width + padding) */
+	
+	border: 2px black inset;
+	border-radius: 2px;
+	/*padding: 20px ;*/
+	box-shadow: 0px 0px 15px #333399;
+}
+.apparaitre
+{
+	opacity: 0;	
+}
+
+.apparaitre:hover
+{	
+	transition: opacity 2s linear;
+	-webkit-transition: opacity 2s linear;
+	-moz-transition: opacity 2s linear;
+	-o-transition: opacity 2s linear;
+	opacity: 1;
+}
+
+/* ********************  STYLE DU CHAT  ******************** */
+	
+.chat_section_style
+{
+	/* positionnement au centre */
+	display: inline-block;
+	width: 600px;
+	margin: auto;
+	font-size: 12pt;
+}
+		
+.chat_login_style
+{
+	font-family: arial, sans-serif;
+	padding: 10px;
+	width: 600px;
+	box-shadow: 2px 2px 15px grey;
+	text-align: center;
+	background-color:  #99CCFF;
+}	
+
+.chat_window
+{
+	font-family: arial, sans-serif;
+	padding: 10px;
+	width: 600px;
+	box-shadow: 2px 2px 15px grey;
+	text-align: center;
+	background-color:  #99CCFF;
+}
+
+.aside_chat
+{
+	border: 1px black solid;
+	margin: auto;
+	float: left;
+	font-family: arial, sans-serif;
+	padding: 10px;
+	box-shadow: 2px 2px 15px grey;
+	width: 200px;
+	min-height: 300px;
+	text-align: center;
+	background-color:  #99CCFF;	
+}
+
+.affichage_chat_membre_connecte
+{
+	border: 1px black solid;
+	margin: 10px 20px 30px 20px;
+	width: 160px;
+	border-radius: 3px;
+}
